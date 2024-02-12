@@ -1,7 +1,18 @@
 import java.util.Scanner;
 
 public class ReadAndPrintSmallest {
+  int instancevariable;
+
+  public ReadAndPrintSmallest() {
+  }
+
+  public ReadAndPrintSmallest(int instancevariable) {
+    this.instancevariable = instancevariable;
+  }
+
   public static void main(String[] args) {
+
+    ReadAndPrintSmallest r = new ReadAndPrintSmallest(2);
     int a[] = new int[3];
     Scanner scan = new Scanner(System.in);
     for (int i = 0; i < 3; i++) {
